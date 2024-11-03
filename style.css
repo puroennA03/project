@@ -1,0 +1,90 @@
+/* Reset and basic styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C4D8C7; /* Light green background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+    width: 100%;
+}
+
+.title h1 {
+    font-size: 2.5em; /* Larger header font */
+    color: #2c7a7b; /* Darker green for main title */
+}
+
+.title p {
+    font-size: 1.2em;
+    color: #666; /* Gray subtitle */
+}
+
+/* Main Card Section */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.card {
+    width: 30%;
+    background-color: #E8F0E8; /* Card background color */
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-btn {
+    background-color: #6B8E23; /* Dark green button */
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.card-btn:hover {
+    background-color: #556B2F; /* Darker green on hover */
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #556B2F; /* Darker footer */
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar button {
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    color: #ddf3f5; /* Light green on hover */
+}
